@@ -7,7 +7,7 @@ const Footer = () => {
         {name: "Location", details: "MRIIRS Campus"}
     ]   
   return (
-    <div className='w-full bg-[#3FBA96] rounded-tl-[50px] rounded-tr-[50px]'>
+    <div className='w-full bg-[#3FBA96] mt-14 rounded-tl-[50px] rounded-tr-[50px]'>
         <div className='text-gray-600  flex items-center justify-center gap-80  text-2xl'>
             {
                 contact?.map((contact, i) =>(

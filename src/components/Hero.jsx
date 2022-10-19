@@ -3,19 +3,14 @@ import hero from "../assets/Images/hero.jpg";
 import Typed from "react-typed";
 const Hero = () => {
 
-  const partners = [
-    {link: "images/aws.png"},
-    {link: "images/oracle.png"},
-    {link: "images/ibm.png"},
-    {link: "images/microsoft.png"},
-  ]
+  
   return (
     <>
       <div className="min-h-full w-full flex md:flex-row flex-col">
         <div className="flex flex-1 mt-56 ml-40">
           <div className="md:text-left text-center mt-28">
             <h1 className="md:text-6xl text-2xl md:leading-normal leading-10 text-white font-bold">
-              <span className="text-gray-600 md:text-[7rem] text-5xl">
+              <span className="text-gray-600 md:text-[7rem] text-5xl z-10">
                 AICCIT-2023
                 <br />
               </span>
@@ -41,7 +36,7 @@ const Hero = () => {
             </h1>
           </div>
         </div>
-        <div className="flex-1 flex item-center justify-center h-full">
+        <div className="flex-1 flex item-center justify-center h-full z-10">
           <img
             src={hero}
             alt="image"
@@ -78,22 +73,6 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="py-10">
-        <div className="text-center mt-8">
-          <h3 className="text-4xl font-semibold">
-            Academic <span className="text-[#3FBA96]">Partners</span>
-          </h3>
-          <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
-              <div className="mt-9 w-[150px] h-[40px] gap-12 flex">
-                  {
-                    partners?.map((partner,i) =>(
-                      <img src={partner?.link} alt="Academic Partners"/>
-                    ))
-                  }
-              </div>
           </div>
         </div>
       </div>

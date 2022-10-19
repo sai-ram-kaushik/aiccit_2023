@@ -9,21 +9,23 @@ import ConferenceTrack from "./components/ConferenceTrack";
 import Register from "./components/Register";
 import Glimps from "./components/Glimps";
 import Dates from "./components/Dates";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
+import Partners from "./components/Partners";
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About />}/>
         <Route path="/conference_committee" element={<ConferenceCommitte />} />
         <Route path="/conference_track" element={<ConferenceTrack />} />
         <Route path="/glimps" element={<Glimps />} />
         <Route path="/dates" element={<Dates />} />
         <Route path="/register" element={<Register />} />
       </Routes>
-      {/* <Footer /> */}
+      <Partners />
+      <Footer />
     </BrowserRouter>
   );
 }
