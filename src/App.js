@@ -9,6 +9,7 @@ import ConferenceTrack from "./components/ConferenceTrack";
 import Register from "./components/Register";
 import Glimps from "./components/Glimps";
 import Dates from "./components/Dates";
+// import Footer from "./components/Footer";
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/dates" element={<Dates />} />
         <Route path="/register" element={<Register />} />
       </Routes>
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 }

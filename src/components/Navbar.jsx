@@ -11,10 +11,8 @@ const Navbar = () => {
     { name: "Conference Track", link: "/conference_track" },
     { name: "Glimps", link: "/glimps" },
     { name: "Important Dates", link: "/dates" },
+    { name: "Registration", link: "/register" },
   ];
-  const button = [
-    {name: "Register", link: "/register"}
-  ]
   useEffect(() => {
     window.addEventListener("scroll", () => {
         const nav = document.querySelector('nav')

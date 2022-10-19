@@ -10,3 +10,17 @@ body{
 .btn-primary{
   @apply bg-[#3FBA96] font-semibold font-sans text-white md:mx-0 mx-auto rounded-lg py-3 px-6 flex items-center gap-2
 }
+
+::-webkit-scrollbar{
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: gray;
+  border-radius: 1rem;
+  background-clip: content-box;
+}
