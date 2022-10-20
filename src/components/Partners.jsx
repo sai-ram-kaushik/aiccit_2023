@@ -6,6 +6,7 @@ const Partners = () => {
         {link: "images/oracle.png"},
         {link: "images/ibm.png"},
         {link: "images/microsoft.png"},
+        {link: "images/infosis1.png"},
       ]
   return (
     <div className="py-10">

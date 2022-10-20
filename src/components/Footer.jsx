@@ -18,7 +18,7 @@ const Footer = () => {
         <div className='text-gray-600  flex items-center justify-center gap-56  text-2xl'>
             {
                 contact?.map((contact,i) =>(
-                    <p>{contact?.details}</p>
+                    <p key={i}>{contact?.details}</p>
                 ))
             }
         </div>

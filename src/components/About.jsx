@@ -2,7 +2,7 @@ import React from "react";
 import mr from "../assets/Images/mr.png";
 const About = () => {
   return (
-    <section id="about" className="py-10 text-gray">
+    <section id="about" className="py-10 text-gray-600">
       <div className="text-center mt-14">
         <h3 className="text-gray-600 text-5xl font-semibold ">
           About <span className="text-[#3FBA96]">US</span>
