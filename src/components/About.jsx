@@ -9,7 +9,7 @@ const About = () => {
         </h3>
         <p className="text-[#A8271A] my-3 text-2xl mt-14 font-bold">
           About Manav Rachna International Institute of Research and
-          Studies(MRIIRS)
+          Studies (MRIIRS)
         </p>
         <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div>

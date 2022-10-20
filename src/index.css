@@ -24,3 +24,8 @@ body{
   border-radius: 1rem;
   background-clip: content-box;
 }
+
+table, th, td{
+    border: 1px solid black;
+    border-radius: 10px;
+}

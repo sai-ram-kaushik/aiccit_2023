@@ -14,10 +14,10 @@ var Stats = function () {
 	container.addEventListener( 'mousedown', function ( event ) { event.preventDefault(); setMode( ++ mode % 2 ) }, false );
 	container.style.cssText = 'width:80px;opacity:0.9;cursor:pointer';
 
-	var fpsDiv = document.createElement( 'div' );
-	fpsDiv.id = 'fps';
-	fpsDiv.style.cssText = 'padding:0 0 3px 3px;text-align:left;background-color:#002';
-	container.appendChild( fpsDiv );
+	// var fpsDiv = document.createElement( 'div' );
+	// fpsDiv.id = 'fps';
+	// fpsDiv.style.cssText = 'padding:0 0 3px 3px;text-align:left;background-color:#002';
+	// container.appendChild( fpsDiv );
 
 	var fpsText = document.createElement( 'div' );
 	fpsText.id = 'fpsText';
