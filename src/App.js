@@ -9,8 +9,8 @@ import ConferenceTrack from "./components/ConferenceTrack";
 import Register from "./components/Register";
 import Glimps from "./components/Glimps";
 import Dates from "./components/Dates";
-// import Footer from "./components/Footer";
-// import Partners from "./components/Partners";
+import Footer from "./components/Footer";
+import Partners from "./components/Partners";
 function App() {
   return (
     <BrowserRouter>
@@ -24,8 +24,8 @@ function App() {
         <Route path="/dates" element={<Dates />} />
         <Route path="/register" element={<Register />} />
       </Routes>
-      {/* <Partners />
-      <Footer /> */}
+      <Partners />
+      <Footer />
     </BrowserRouter>
   );
 }
