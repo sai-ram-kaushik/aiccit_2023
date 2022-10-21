@@ -7,10 +7,10 @@ const Hero = () => {
   return (
     <>
       <div className="min-h-full w-full flex md:flex-row flex-col">
-        <div className="flex flex-1 mt-56 ml-40">
+        <div className="flex flex-1 mt-56 mx-32">
           <div className="md:text-left text-center mt-28">
             <h1 className="md:text-6xl text-2xl md:leading-normal leading-10 text-white font-bold">
-              <span className="text-gray-600 md:text-[7rem] text-5xl z-10">
+              <span className="text-gray-600 md:text-[7rem] flex text-center text-5xl z-10">
                 AICCIT-2023
                 <br />
               </span>
@@ -22,7 +22,7 @@ const Hero = () => {
                 <span className="text-gray-600 text-4xl">
                   <span className="text-[#3FBA96]">A</span>dvancing in{" "}
                 </span>
-                <Typed
+                <Typed className="md:text-4xl text-4xl"
                   strings={[
                     "Computation",
                     "Communication",
@@ -36,7 +36,7 @@ const Hero = () => {
             </h1>
           </div>
         </div>
-        <div className="flex-1 flex item-center justify-center h-full z-10">
+        <div className="flex-1 mt-10 flex item-center justify-center h-full z-10">
           <img
             src={hero}
             alt="image"
@@ -45,7 +45,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="py-10 ">
-        <div className="text-center mt-8">
+        <div className="text-center mt-14">
           <h3 className="text-4xl font-semibold">
             About <span className="text-[#3FBA96]">Conference</span>
           </h3>

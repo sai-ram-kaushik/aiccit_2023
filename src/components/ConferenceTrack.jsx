@@ -231,7 +231,7 @@ const ConferenceTrack = () => {
         <table width="1080px">
           <thead>
             <tr>
-              <th colSpan="3" className="text-4xl">
+              <th colSpan="3" className="text-4xl text-[#A8271A]">
                 Track 1
               </th>
             </tr>
@@ -270,7 +270,7 @@ const ConferenceTrack = () => {
         <table width="1080px">
           <thead>
             <tr>
-              <th colSpan="3" className="text-4xl">
+              <th colSpan="3" className="text-4xl text-[#A8271A]">
                 Track 2
               </th>
             </tr>
@@ -309,7 +309,7 @@ const ConferenceTrack = () => {
         <table width="1080px">
           <thead>
             <tr>
-              <th colSpan="3" className="text-4xl">
+              <th colSpan="3" className="text-4xl text-[#A8271A]">
                 Track 3
               </th>
             </tr>
@@ -348,7 +348,7 @@ const ConferenceTrack = () => {
         <table width="1080px">
           <thead>
             <tr>
-              <th colSpan="3" className="text-4xl">
+              <th colSpan="3" className="text-4xl text-[#A8271A]">
                 Track 4
               </th>
             </tr>
@@ -388,7 +388,7 @@ const ConferenceTrack = () => {
         <table width="1080px">
           <thead>
             <tr>
-              <th colSpan="3" className="text-4xl">
+              <th colSpan="3" className="text-4xl text-[#A8271A]">
                 Track 5
               </th>
             </tr>
@@ -428,7 +428,7 @@ const ConferenceTrack = () => {
         <table width="1080px">
           <thead>
             <tr>
-              <th colSpan="3" className="text-4xl">
+              <th colSpan="3" className="text-4xl text-[#A8271A]">
                 Track 6
               </th>
             </tr>

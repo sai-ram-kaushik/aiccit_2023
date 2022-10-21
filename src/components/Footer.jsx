@@ -8,17 +8,10 @@ const Footer = () => {
     ]   
   return (
     <div className='w-full bg-[#3FBA96] mt-14 rounded-tl-[50px] rounded-tr-[50px]'>
-        <div className='text-gray-600  flex items-center justify-center gap-80  text-2xl'>
+        <div className='text-gray-600 flex md:flex-row flex-col items-center leading-10 justify-center md:gap-80 gap-10 text-2xl'>
             {
                 contact?.map((contact, i) =>(
-                    <p key={i}>{contact?.name}</p>
-                ))
-            }
-        </div>
-        <div className='text-gray-600  flex items-center justify-center gap-56  text-2xl'>
-            {
-                contact?.map((contact,i) =>(
-                    <p key={i}>{contact?.details}</p>
+                    <p key={i}>{contact?.name}<br />{contact?.details}</p>
                 ))
             }
         </div>
