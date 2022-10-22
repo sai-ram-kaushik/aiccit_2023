@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     const contact = [
-        {name: "Call Support", details: "+91 9810487182"},
+        {name: "Call Support", details: "+91 99108 91864"},
         {name: "Email Support", details: "comitcon2021@gmail.com"},
         {name: "Location", details: "MRIIRS Campus"}
     ]   

@@ -125,7 +125,7 @@ const Navbar = () => {
           <CgMenuRight />
         </div>
         <div
-          className={`md:hidden text-gray-600 absolute w-2/2 h-screen px-3 py-2 font-medium bg-white top-0  duration-1000 ${
+          className={`md:hidden text-gray-600 absolute w-7/12 h-screen px-3 py-2 font-medium bg-white top-0  duration-1000 ${
             open ? "right-0" : "right-[-100%]"
           }`}
         >
