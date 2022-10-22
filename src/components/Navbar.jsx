@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between ">
         <div className="mx-7">
-          <img src={logo} width="100px" />
+          <img src={logo} width="200px" />
         </div>
         <div className="text-gray-600 md:block hidden px-7 py-2 font-medium">
           <ul className="flex items-center gap-10 py-2 text-lg">
@@ -214,7 +214,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="mx-7 md:block hidden">
-          <img src={mrlogo} className="w-9/12" />
+          <img src={mrlogo} className="w-6/12" />
         </div>
       </div>
     </nav>
