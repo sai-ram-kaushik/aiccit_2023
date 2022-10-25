@@ -13,7 +13,7 @@ const Dates = () => {
         <table>
           <tr className="text-2xl">
             <td>Paper Submission Deadline:</td>
-            <td>30<sup>th</sup> Sept, 2023</td>
+            <td>30<sup>th</sup> Dec, 2022</td>
           </tr>
           <tr className="text-2xl">
             <td>Acceptance Notification:</td>
@@ -29,7 +29,7 @@ const Dates = () => {
           </tr>
           <tr className="text-2xl">
             <td>Conference Dates:</td>
-            <td>18 & 19<sup>th</sup> Sept, 2023</td>
+            <td>18 & 19<sup>th</sup> June, 2023</td>
           </tr>
         </table>
       </div>

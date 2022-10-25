@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/Images/hero.jpg";
+import hero from "../assets/Images/mrmain.jpg";
 import Typed from "react-typed";
 const Hero = () => {
 
@@ -40,12 +40,12 @@ const Hero = () => {
           <img
             src={hero}
             alt="image"
-            className="md:w-11/12 h-full object-cover mt-20"
+            className="md:w-11/12 h-full object-cover rounded-2xl mt-40"
           />
         </div>
       </div>
       <div className="py-10 ">
-        <div className="text-center mt-14">
+        <div className="text-center mt-60 ">
           <h3 className="text-4xl font-semibold">
             About <span className="text-[#3FBA96]">Conference</span>
           </h3>

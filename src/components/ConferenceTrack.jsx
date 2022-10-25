@@ -218,7 +218,7 @@ const ConferenceTrack = () => {
 
 
   return (
-    <section className='py-10 text-gray"'>
+    <section className='py-10 text-gray'>
       <div className="text-center mt-14">
         <h3 className="text-gray-600 font-semibold text-5xl">
           Conference <span className="text-[#3FBA96]">Tracks</span>

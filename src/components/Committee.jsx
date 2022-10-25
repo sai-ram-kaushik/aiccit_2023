@@ -40,7 +40,7 @@ const Committee = () => {
            Co-Chair
         </p>
         <p className="text-gray-600 my-3 text-2xl mt-14 font-bold leading-10">
-        Dr. Supriya P. Panda, Professor Head, CSE, FET, MRIIRS <br />
+        Dr. Charu Virmani, Professor Head, CSE, FET, MRIIRS <br />
         Dr. Suresh Kumar, Professor, CSE, FET, MRIIRS
         </p>
         <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">

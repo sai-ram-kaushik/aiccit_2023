@@ -9,7 +9,7 @@ const Partners = () => {
     { link: "images/infosis1.png" },
   ];
   return (
-    <section className="w-full mt-14 ">
+    <section className="w-full mt-14  ">
       <div className="text-center mt-14">
         <h3 className="text-gray-600 font-semibold text-5xl">
           Academic <span className="text-[#3FBA96]">Partners</span>
