@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import hero from "../assets/Images/mrmain.jpg";
 import Typed from "react-typed";
+import Aos from "aos";
+import "aos/dist/aos.css"
 const Hero = () => {
+
+  useEffect(() =>{
+    Aos.init({duration: 2000});
+  }, []);
 
   
   return (
@@ -44,7 +50,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="py-10 ">
+      <div className="py-10" data-aos="fade-right">
         <div className="text-center mt-60 ">
           <h3 className="text-4xl font-semibold">
             About <span className="text-[#3FBA96]">Conference</span>

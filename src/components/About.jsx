@@ -1,8 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import mr from "../assets/Images/mr.png";
+import Aos from "aos";
+import "aos/dist/aos.css"
 const About = () => {
+
+  useEffect(() =>{
+    Aos.init({duration: 2000});
+  }, []);
+
   return (
-    <section id="about" className="py-10 text-gray-600">
+    <section id="about" className="py-10 text-gray-600" data-aos="fade-right">
       <div className="text-center mt-14">
         <h3 className="text-gray-600 text-5xl font-semibold ">
           About <span className="text-[#3FBA96]">Us</span>
