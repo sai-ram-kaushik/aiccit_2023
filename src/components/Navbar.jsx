@@ -24,7 +24,7 @@ const Navbar = () => {
   });
   return (
     <nav
-      className={`fixed w-[100%] left-0 top-0 z-[999] ${
+      className={`fixed w-full left-0 top-0 z-[999] ${
         sticky ? "bg-white text-gray-600" : "text-gray-600"
       }`}
     >
@@ -33,7 +33,7 @@ const Navbar = () => {
           <Link to="/"><img src={logo}  width="200px" /></Link>
         </div>
         <div className="text-gray-600 md:block hidden px-7 py-2 font-medium">
-          <ul className="flex items-center gap-10 py-2 text-lg">
+          <ul className="flex items-center gap-10 py-2 text-[15px]">
             <Link to="/" className="hover:text-[#3FBA96]">
               Home
             </Link>
@@ -41,10 +41,10 @@ const Navbar = () => {
               About
             </Link>
             <Menu as="div" className="relative inline-block text-left">
-              <Menu.Button className="inline-flex  w-full justify-center text-lg  px-4 py-2 font-medium text-gray-700  hover:text-[#3FBA96] focus:outline-none focus:ring-2  focus:ring-offset-2 ">
+              <Menu.Button className="inline-flex  w-full justify-center text-[15px]  px-4 py-2 font-medium text-gray-700  hover:text-[#3FBA96] focus:outline-none focus:ring-2  focus:ring-offset-2 ">
                 Conference Committee
                 <ChevronDownIcon
-                  className="-mr-1 ml-2 h-6 w-6"
+                  className="-mr-1 ml-2 h-5 w-5"
                   aria-hidden="true"
                 />
               </Menu.Button>
@@ -137,7 +137,7 @@ const Navbar = () => {
               About
             </Link>
             <Menu as="div" className="relative inline-block text-left">
-              <Menu.Button className="inline-flex  w-full justify-center text-lg  px-6 font-medium text-gray-700   hover:text-[#3FBA96] focus:outline-none focus:ring-2  focus:ring-offset-2 ">
+              <Menu.Button className="inline-flex  w-full justify-center text-[15px]  px-6 font-medium text-gray-700   hover:text-[#3FBA96] focus:outline-none focus:ring-2  focus:ring-offset-2 ">
                 Conference Committee
                 <ChevronDownIcon
                   className="-mr-1 ml-2 h-6 w-6"
@@ -213,9 +213,9 @@ const Navbar = () => {
             <img src={mrlogo} className="w-9/12 mt-14 px-6" />
           </ul>
         </div>
-        <div className="mx-7 md:block hidden">
-          <img src={mrlogo} className="w-6/12" />
-        </div>
+        {/* <div className="mx-7 md:block hidden">
+          <img src={mrlogo} className="w-[100px]" />
+        </div> */}
       </div>
     </nav>
   );

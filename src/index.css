@@ -29,10 +29,3 @@ table, th, td{
     border: 1px solid black;
 }
 
-.home{
-  background-image: url(./assets/Images/mrlawn.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 70vh;
-}

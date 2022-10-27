@@ -9,19 +9,17 @@ const Register = () => {
 
   return (
     <section className="py-10 text-gray-600" data-aos="fade-right">
-      <div className="text-center mt-14">
-        <h3 className="text-gray-600 text-5xl font-semibold ">
+      <div className="text-center">
+        <h3 className="text-gray-600 md:text-5xl text-4xl md:mt-20 mt-28 font-semibold ">
           Registration <span className="text-[#3FBA96]">Details</span>
         </h3>
         <p className="text-[#A8271A] my-3 text-3xl mt-28 font-bold">
           Conference Regitration Fee and Policy
         </p>
-        <p className="text-gray-600 w-[1080px] mx-96 text-2xl mt-14 font-bold leading-8">
-          At least one of the authors of the paper has to register for the
-          conference. It is mandatory to present the paper in the conference for
-          the inclusion of the paper in the conference proceedings.
+        <p className="my-3 text-lg  mt-14 font-bold">
+          At least one of the author of the paper has to register for the conference. It is mandatory to present the paper in the conference for the inclusion of the paper in the conference proceedings.
         </p>
-        <div className="mt-14 justify-center  flex text-gray-600 ">
+        <div className="mt-14 justify-center flex text-gray-600 md:ml-0 ml-6 md:mr-0 mr-6 ">
           <table>
             <thead>
               <tr>

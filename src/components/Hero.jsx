@@ -13,22 +13,22 @@ const Hero = () => {
   return (
     <>
       <div className="min-h-full w-full flex md:flex-row flex-col" data-aos="fade-right">
-        <div className="flex flex-1 mt-56 mx-32">
+        <div className="flex flex-1 mt-40 mx-32 ">
           <div className="md:text-left text-center mt-28">
             <h1 className="md:text-6xl text-2xl md:leading-normal leading-10 text-white font-bold">
-              <span className="text-gray-600 md:text-[7rem] flex text-center text-5xl z-10">
+              <span className="text-gray-600 md:text-[5rem] flex text-center text-5xl z-10">
                 AICCIT-2023
                 <br />
               </span>
-              <p className="text-gray-600 text-4xl">
+              <p className="text-gray-600 text-3xl">
                 <span className="text-[#3FBA96]">I</span>nternational{" "}
                 <span className="text-[#3FBA96]">C</span>onferene on
               </p>
               <div className="md:text-4xl text-lg md:leading-normal leading-5 mt-1 font-bold text-[#3FBA96] ">
-                <span className="text-gray-600 text-4xl">
+                <span className="text-gray-600 text-3xl">
                   <span className="text-[#3FBA96]">A</span>dvancing in{" "}
                 </span>
-                <Typed className="md:text-4xl text-4xl"
+                <Typed className="md:text-[1.5rem] text-4xl"
                   strings={[
                     "Computation",
                     "Communication",

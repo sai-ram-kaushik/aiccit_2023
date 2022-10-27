@@ -227,23 +227,22 @@ const ConferenceTrack = () => {
   return (
     <section className='py-10 text-gray' data-aos="fade-right">
       <div className="text-center mt-14">
-        <h3 className="text-gray-600 font-semibold text-5xl">
+        <h3 className="text-gray-600 font-semibold text-4xl">
           Conference <span className="text-[#3FBA96]">Tracks</span>
         </h3>
       </div>
 
               {/* TRACK - 1 */}
-
-      <div className="mt-14 justify-center  flex text-gray-600">
-        <table width="1080px">
+      <div className="mt-14 justify-center flex text-gray-600">
+        <table className="md:w-[1080px]">
           <thead>
             <tr>
-              <th colSpan="3" className="text-4xl text-[#A8271A]">
+              <th colSpan="3" className="text-3xl text-[#A8271A]">
                 Track 1
               </th>
             </tr>
             <tr>
-              <th colSpan="3" className="text-4xl">
+              <th colSpan="3" className="text-3xl">
                 Theme: Artificial Intelligence, Machine Learning & Data Science
               </th>
             </tr>
@@ -273,7 +272,7 @@ const ConferenceTrack = () => {
 
                 {/* Track- 2 */}
 
-      <div className="mt-14 justify-center  flex text-gray-600 ">
+      <div className="mt-14 justify-center flex text-gray-600 ">
         <table width="1080px">
           <thead>
             <tr>
