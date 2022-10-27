@@ -1,6 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const Partners = () => {
+
+  useEffect(() =>{
+    Aos.init({duration: 2000});
+  }, []);
+
   const partners = [
     { link: "images/aws.png" },
     { link: "images/oracle.png" },
@@ -9,7 +16,7 @@ const Partners = () => {
     { link: "images/infosis1.png" },
   ];
   return (
-    <section className="w-full mt-14  ">
+    <section className="w-full mt-14" data-aos="fade-up">
       <div className="text-center mt-14">
         <h3 className="text-gray-600 font-semibold text-5xl">
           Academic <span className="text-[#3FBA96]">Partners</span>

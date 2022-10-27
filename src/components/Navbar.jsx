@@ -24,13 +24,13 @@ const Navbar = () => {
   });
   return (
     <nav
-      className={`fixed w-full left-0 top-0 z-[999] ${
+      className={`fixed w-[100%] left-0 top-0 z-[999] ${
         sticky ? "bg-white text-gray-600" : "text-gray-600"
       }`}
     >
       <div className="flex items-center justify-between ">
         <div className="mx-7">
-          <img src={logo} width="200px" />
+          <Link to="/"><img src={logo}  width="200px" /></Link>
         </div>
         <div className="text-gray-600 md:block hidden px-7 py-2 font-medium">
           <ul className="flex items-center gap-10 py-2 text-lg">
@@ -62,21 +62,6 @@ const Navbar = () => {
                     <Menu.Item>
                       {({ active }) => (
                         <Link
-                          to="/committee"
-                          className={classNames(
-                            active
-                              ? "bg-gray-100 text-gray-900"
-                              : "text-gray-700",
-                            "block px-4 py-2 text-sm"
-                          )}
-                        >
-                          Committee
-                        </Link>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link
                           to="/advisory_committee"
                           className={classNames(
                             active
@@ -85,12 +70,10 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Advisory Committee
+                          International and national advisory 
                         </Link>
                       )}
                     </Menu.Item>
-                  </div>
-                  <div className="py-1">
                     <Menu.Item>
                       {({ active }) => (
                         <Link
@@ -102,7 +85,24 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Technical Advisory
+                          Local advisory
+                        </Link>
+                      )}
+                    </Menu.Item>
+                  </div>
+                  <div className="py-1">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link
+                          to="/committee"
+                          className={classNames(
+                            active
+                              ? "bg-gray-100 text-gray-900"
+                              : "text-gray-700",
+                            "block px-4 py-2 text-sm"
+                          )}
+                        >
+                          Organizing committee 
                         </Link>
                       )}
                     </Menu.Item>

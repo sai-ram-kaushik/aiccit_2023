@@ -12,7 +12,7 @@ const Hero = () => {
   
   return (
     <>
-      <div className="min-h-full w-full flex md:flex-row flex-col">
+      <div className="min-h-full w-full flex md:flex-row flex-col" data-aos="fade-right">
         <div className="flex flex-1 mt-56 mx-32">
           <div className="md:text-left text-center mt-28">
             <h1 className="md:text-6xl text-2xl md:leading-normal leading-10 text-white font-bold">
@@ -52,7 +52,7 @@ const Hero = () => {
       </div>
       <div className="py-10" data-aos="fade-right">
         <div className="text-center mt-60 ">
-          <h3 className="text-4xl font-semibold">
+          <h3 className="text-4xl text-gray-600 font-semibold">
             About <span className="text-[#3FBA96]">Conference</span>
           </h3>
           <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">

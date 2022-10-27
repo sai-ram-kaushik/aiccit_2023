@@ -1,8 +1,14 @@
-import React from "react";
-
+import React, {useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
 const Register = () => {
+
+  useEffect(() =>{
+    Aos.init({duration: 2000});
+  }, []);
+
   return (
-    <section className="py-10 text-gray-600">
+    <section className="py-10 text-gray-600" data-aos="fade-right">
       <div className="text-center mt-14">
         <h3 className="text-gray-600 text-5xl font-semibold ">
           Registration <span className="text-[#3FBA96]">Details</span>

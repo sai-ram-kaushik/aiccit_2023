@@ -1,8 +1,15 @@
-import React from "react";
-
+import React, {useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
 const Dates = () => {
+
+
+  useEffect(() =>{
+    Aos.init({duration: 2000});
+  }, []);
+
   return (
-    <section className="py-24 text-gray">
+    <section className="py-24 text-gray" data-aos="fade-right">
       <div className="text-center mt-14">
         <h3 className="text-gray-600 text-5xl font-semibold ">
           Important <span className="text-[#3FBA96]">Dates</span>

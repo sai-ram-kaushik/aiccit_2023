@@ -1,6 +1,13 @@
-import React from "react";
-
+import React, {useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
 const Glimps = () => {
+
+
+  useEffect(() =>{
+    Aos.init({duration: 2000});
+  }, []);
+
 
   const glimps = [
     {link: "images/glimps1.png"},
@@ -15,7 +22,7 @@ const Glimps = () => {
   ]
 
   return (
-    <section className="py-10 text-gray-600">
+    <section className="py-10 text-gray-600" data-aos="fade-right">
       <div className="text-center mt-14">
         <h3 className="text-gray-600 text-5xl font-semibold ">
           Glimps <span className="text-[#3FBA96]">of Previous Year</span>
