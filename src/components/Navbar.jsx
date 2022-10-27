@@ -158,21 +158,6 @@ const Navbar = () => {
                     <Menu.Item>
                       {({ active }) => (
                         <Link
-                          to="/committee"
-                          className={classNames(
-                            active
-                              ? "bg-gray-100 text-gray-900"
-                              : "text-gray-700",
-                            "block px-4 py-2 text-sm"
-                          )}
-                        >
-                          Committee
-                        </Link>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link
                           to="/advisory_committee"
                           className={classNames(
                             active
@@ -181,12 +166,10 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Advisory Committee
+                          International and national advisory 
                         </Link>
                       )}
                     </Menu.Item>
-                  </div>
-                  <div className="py-1">
                     <Menu.Item>
                       {({ active }) => (
                         <Link
@@ -198,7 +181,24 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Technical Advisory
+                          Local advisory
+                        </Link>
+                      )}
+                    </Menu.Item>
+                  </div>
+                  <div className="py-1">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link
+                          to="/committee"
+                          className={classNames(
+                            active
+                              ? "bg-gray-100 text-gray-900"
+                              : "text-gray-700",
+                            "block px-4 py-2 text-sm"
+                          )}
+                        >
+                          Organizing committee 
                         </Link>
                       )}
                     </Menu.Item>
