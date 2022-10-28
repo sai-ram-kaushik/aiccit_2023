@@ -38,7 +38,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link to="/about" className="hover:text-[#3FBA96]">
-              About
+              About Us
             </Link>
             <Menu as="div" className="relative inline-block text-left">
               <Menu.Button className="inline-flex  w-full justify-center text-[15px]  px-4 py-2 font-medium text-gray-700  hover:text-[#3FBA96] focus:outline-none focus:ring-2  focus:ring-offset-2 ">
@@ -70,7 +70,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          International and national advisory 
+                          International and national advisory Committe
                         </Link>
                       )}
                     </Menu.Item>
@@ -85,7 +85,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Local advisory
+                          Local advisory Committee
                         </Link>
                       )}
                     </Menu.Item>
@@ -112,8 +112,9 @@ const Navbar = () => {
             </Menu>
             <Link to="/conference_track" className="hover:text-[#3FBA96]">Conference Track</Link>
             <Link to="/dates" className="hover:text-[#3FBA96]">Important Dates</Link>
+            <Link to="/submission" className="hover:text-[#3FBA96]">Submission</Link>
             <Link to="/register" className="hover:text-[#3FBA96]">Registration</Link>
-            <Link to="/glimps" className="hover:text-[#3FBA96]">Previous Year</Link>
+            <Link to="/glimps" className="hover:text-[#3FBA96]">Previous Year Conferences</Link>
           </ul>
         </div>
         <div
@@ -134,7 +135,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link to="/about" className="hover:text-[#3FBA96] px-6">
-              About
+              About Us
             </Link>
             <Menu as="div" className="relative inline-block text-left">
               <Menu.Button className="inline-flex  w-full justify-center text-[15px]  px-6 font-medium text-gray-700   hover:text-[#3FBA96] focus:outline-none focus:ring-2  focus:ring-offset-2 ">
@@ -166,7 +167,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          International and national advisory 
+                          International and national advisory Commitee
                         </Link>
                       )}
                     </Menu.Item>
@@ -181,7 +182,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Local advisory
+                          Local advisory Committee
                         </Link>
                       )}
                     </Menu.Item>
@@ -208,8 +209,9 @@ const Navbar = () => {
             </Menu>
             <Link to="/conference_track" className="hover:text-[#3FBA96] px-6">Conference Track</Link>
             <Link to="/dates" className="hover:text-[#3FBA96] px-6">Important Dates</Link>
+            <Link to="/submission" className="hover:text-[#3FBA96]">Submission</Link>
             <Link to="/register" className="hover:text-[#3FBA96] px-6">Registration</Link>
-            <Link to="/glimps" className="hover:text-[#3FBA96] px-6">Previous Year</Link>
+            <Link to="/glimps" className="hover:text-[#3FBA96] px-6">Previous Year conferences</Link>
             <img src={mrlogo} className="w-9/12 mt-14 px-6" />
           </ul>
         </div>

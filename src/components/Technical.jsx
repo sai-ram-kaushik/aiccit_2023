@@ -32,7 +32,6 @@ const Technical = () => {
         </p>
         <p className="text-gray-600 my-3 text-2xl mt-14 font-bold leading-10">
         Dr. Rosy Madaan, CSE, FET, MRIIRS <br />
-        Dr. Pallavi , CSE, FET, MRIIRS <br />
         Dr. Nitasha Soni , CSE, FET, MRIIRS <br />
         </p>
 

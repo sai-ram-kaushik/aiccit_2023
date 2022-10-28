@@ -27,7 +27,7 @@ const Glimps = () => {
         <h3 className="text-gray-600 text-5xl font-semibold ">
           Glimps <span className="text-[#3FBA96]">of Previous Year</span>
         </h3>
-        <p className="my-3 text-lg  mt-14 font-bold">
+        <p className="my-3 text-lg  mt-14">
           The Department of Computer Science and Engineering, FET, Manav Rachna
           International Institute of Research and Studies (MRIIRS) has organized
           the two-day International Conference on “Machine Learning, Big Data,

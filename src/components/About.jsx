@@ -11,11 +11,8 @@ const About = () => {
   return (
     <section id="about" className="py-10 text-gray-600" data-aos="fade-right">
       <div className="text-center mt-14">
-        <h3 className="text-gray-600 text-5xl font-semibold ">
-          About <span className="text-[#3FBA96]">Us</span>
-        </h3>
-        <p className="text-[#A8271A] my-3 text-2xl mt-14 font-bold">
-          About Manav Rachna International Institute of Research and
+        <p className="text-[#A8271A] my-3 text-2xl mt-20 font-bold">
+           Manav Rachna International Institute of Research and
           Studies (MRIIRS)
         </p>
         <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
@@ -47,7 +44,7 @@ const About = () => {
           </div>
         </div>
         <p className="text-[#A8271A] my-3 text-2xl mt-14 font-bold">
-          About Department of Computer Science and Engineering (CSE)
+          Department of Computer Science and Engineering (CSE)
         </p>
         <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div>
@@ -80,7 +77,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <p className="text-[#A8271A] my-3 text-2xl mt-14 font-bold">About Conference</p>
+        <p className="text-[#A8271A] my-3 text-2xl mt-14 font-bold">AICCIT - 2023 (International Conference on Advancing in Computation,<br /> Communication and Information Technology)</p>
         <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div>
             <div className="text-gray-600 my-3 mt-8">
@@ -102,21 +99,6 @@ const About = () => {
                 vision to establish scientific contacts between research teams
                 and scientists from different countries for future joint
                 research collaborations.
-              </p>
-            </div>
-          </div>
-          <div className="flex-1 flex justify-center items-center">
-            <div className="lg:w-96 h-full relative sm:w-10/12 w-12/12 max-w-full mt-20">
-              <img src={mr} alt="about_image" className="w-full object-cover" />
-            </div>
-          </div>
-        </div>
-        <p className="text-[#A8271A] my-3 text-2xl mt-14 font-bold">Conference Objectives</p>
-        <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
-          <div>
-            <div className="text-gray-600 my-3 mt-8">
-              <p className="text-justify leading-8 font-sans text-lg">
-              In today’s fast-paced technology era, the conference aims to present a forum for presenting, brainstorming, and exchanging the digital, physical, and biological worlds as they grow increasingly entangled. The Com-IT-Con-2022 conference’s main purpose is to bring together academics, researchers, and industry leaders from around the world to discuss and debate the most recent advancements in computing disciplines like Machine Learning, Big Data, Cloud Computing, and Parallel Computing. The conference aims to establish scientifically the links between research teams and experts from other nations to facilitate future collaborations.
               </p>
             </div>
           </div>

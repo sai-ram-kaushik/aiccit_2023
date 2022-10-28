@@ -1,467 +1,478 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Aos from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 
 const ConferenceTrack = () => {
-
-
-  useEffect(() =>{
-    Aos.init({duration: 2000});
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
   }, []);
 
-  const track1 = [
-    {topic: "Case-Based Reasoning and Learning"},
-    <br />,
-    {topic: "Classification and Clustering"},
-    <br />,
-    {topic: "Deep Learning"},
-    <br />,
-    {topic: "Inductive Learning"},
-    <br />,
-    {topic: "Inference Rule Learning"},
-    <br />,
-    {topic: "Learning and Adaptive control"},
-    <br />,
-    {topic: "Real Time Event Learning and Detection"},
-    <br />,
-    {topic: "Natural Language Processing"},
-    <br />,
-    {topic: "Similarity Measures and Learning of Similarity"},
-    <br />,
-    {topic: "Statistical and Evolutionary Learning Soft Computing"},
-    <br />,
-    {topic: "Image Processing and Computer Vision Internet of Things"},
-    <br />,
-    {topic: "Virtual Reality and Augmented Reality Robotics"},
-    <br />,
-    {topic: "Annotation of Media content"},
-    <br />,
-    {topic: "Data Handling and Pre-processing"},
-    <br />,
-    {topic: "Pattern Recognitions"},
-    <br />,
-    {topic: "Feature Engineering and Feature Selection"},
-    <br />,
-    {topic: "Computational Biology &amp; Bioinformatics"},
-    <br />,
-    {topic: "Data Modeling &amp; Semantic Engineering High Performance"},
-    <br />,
-    {topic: "Scientific/Engineering/ Commercial Applications"},
-    <br />,
-    {topic: "Infoscience &amp; Computational Informatics"},
-    <br />,
-    {topic: "Information Network Analytics"},
-    <br />,
-    {topic: "Data Science Techniques for Handling"},
-    <br />,
-    {topic: "Epidemic and Pandemic Situations"},
-    <br />,
-    {topic: "Time Series and Sequential Pattern Mining"},
-  ]
-
   const track2 = [
-    {topic: "Cloud Management and Operations"},
+    { topic: "Cloud Management and Operations" },
     <br />,
-    {topic: "Cloud Security"},
+    { topic: "Cloud Security" },
     <br />,
-    {topic: "Cloud Computing in Business"},
+    { topic: "Cloud Computing in Business" },
     <br />,
-    {topic: "Cloud Performance"},
+    { topic: "Cloud Performance" },
     <br />,
-    {topic: "Scalability and Reliability"},
+    { topic: "Scalability and Reliability" },
     <br />,
-    {topic: "Data Analytics in Cloud"},
+    { topic: "Data Analytics in Cloud" },
     <br />,
-    {topic: "Cloud Development and its Applications"},
+    { topic: "Cloud Development and its Applications" },
     <br />,
-    {topic: "Bit coin and Cryptocurrency"},
+    { topic: "Bit coin and Cryptocurrency" },
     <br />,
-    {topic: "Intelligence"},
+    { topic: "Intelligence" },
     <br />,
-    {topic: "Transaction and Security Awareness"},
+    { topic: "Transaction and Security Awareness" },
     <br />,
-    {topic: "Ethereum and Smart contract development"},
+    { topic: "Ethereum and Smart contract development" },
     <br />,
-    {topic: "Public vs Private Blockchain"},
+    { topic: "Public vs Private Blockchain" },
     <br />,
-    {topic: "Current Blockchain Application and Platforms"},
+    { topic: "Current Blockchain Application and Platforms" },
     <br />,
-    {topic: "Identity and Authorization Systems"},
+    { topic: "Identity and Authorization Systems" },
     <br />,
-    {topic: "Building Decentralized Autonomous Solutions"},
+    { topic: "Building Decentralized Autonomous Solutions" },
     <br />,
-    {topic: "Building Communication Network on Blockchain"},
+    { topic: "Building Communication Network on Blockchain" },
     <br />,
-    {topic: "Access and Identity Management"},
+    { topic: "Access and Identity Management" },
     <br />,
-    {topic: "Integrity Issues and Ethical Hacking"},
+    { topic: "Integrity Issues and Ethical Hacking" },
     <br />,
-    {topic: "Emerging Threats."},
+    { topic: "Emerging Threats." },
     <br />,
-    {topic: "Cyber Crime and its Solutions"},
+    { topic: "Cyber Crime and its Solutions" },
     <br />,
-    {topic: "Data Privacy"},
-  ]
+    { topic: "Data Privacy" },
+  ];
 
   const track3 = [
-    {topic: "Big Data Analytics, and Applications"},
+    { topic: "Big Data Analytics, and Applications" },
     <br />,
-    {topic: "Big Data Search and Mining"},
+    { topic: "Big Data Search and Mining" },
     <br />,
-    {topic: "Visualization Analytics for Big Data"},
+    { topic: "Visualization Analytics for Big Data" },
     <br />,
-    {topic: "Data Acquisition, Integration, Cleaning, and Best Practices"},
+    { topic: "Data Acquisition, Integration, Cleaning, and Best Practices" },
     <br />,
-    {topic: "Scalability and Efficiency"},
+    { topic: "Scalability and Efficiency" },
     <br />,
-    {topic: "Critical Infrastructure Security"},
-  ]
+    { topic: "Critical Infrastructure Security" },
+  ];
 
   const track4 = [
-    {topic: "Databases and Ontology-based data access,"},
+    { topic: "Databases and Ontology-based data access," },
     <br />,
-    {topic: "integration and exchange on Web"},
+    { topic: "integration and exchange on Web" },
     <br />,
-    {topic: "Information retrieval and semantic analysis"},
+    { topic: "Information retrieval and semantic analysis" },
     <br />,
-    {topic: "Semantic approaches in and for Information Extraction"},
+    { topic: "Semantic approaches in and for Information Extraction" },
     <br />,
-    {topic: "Knowledge Driven NLP"},
+    { topic: "Knowledge Driven NLP" },
     <br />,
-    {topic: "Novel Techniques for the Semantic Web"},
+    { topic: "Novel Techniques for the Semantic Web" },
     <br />,
-    {topic: "Multi-agent and autonomous systems"},
+    { topic: "Multi-agent and autonomous systems" },
     <br />,
-    {topic: "Knowledge (e.g. construction, maintenance, reasoning) and virtual knowledge graphs"},
+    {
+      topic:
+        "Knowledge (e.g. construction, maintenance, reasoning) and virtual knowledge graphs",
+    },
     <br />,
-    {topic: "Ontology based neural symbolic reasoning and learning"},
+    { topic: "Ontology based neural symbolic reasoning and learning" },
     <br />,
-    {topic: "Robust and scalable management of semantics and data"},
+    { topic: "Robust and scalable management of semantics and data" },
     <br />,
-    {topic: "Multi-modal semantic reasoning Programming the Semantic Web"},
+    { topic: "Multi-modal semantic reasoning Programming the Semantic Web" },
     <br />,
-    {topic: "Semantic social network mining, analysis, representation, and management"},
+    {
+      topic:
+        "Semantic social network mining, analysis, representation, and management",
+    },
     <br />,
-    {topic: "Geospatial semantics and data Trust, privacy, and security"},
-  ]
+    { topic: "Geospatial semantics and data Trust, privacy, and security" },
+  ];
 
   const track5 = [
-    {topic: "Multicore and Many Core Systems"},
+    { topic: "Multicore and Many Core Systems" },
     <br />,
-    {topic: "High Performance Systems"},
+    { topic: "High Performance Systems" },
     <br />,
-    {topic: "Interconnection Networks"},
+    { topic: "Interconnection Networks" },
     <br />,
-    {topic: "Energy Efficient Design"},
+    { topic: "Energy Efficient Design" },
     <br />,
-    {topic: "Performance Evaluation of Parallel Algorithms"},
+    { topic: "Performance Evaluation of Parallel Algorithms" },
     <br />,
-    {topic: "Parallel Programming Languages FPGA’s and GPGPU"},
+    { topic: "Parallel Programming Languages FPGA’s and GPGPU" },
     <br />,
-    {topic: "Compilers in Parallel Environment Stream Processors in GPU"},
+    { topic: "Compilers in Parallel Environment Stream Processors in GPU" },
     <br />,
-    {topic: "Parallel Computing in Big Data Analytics"},
+    { topic: "Parallel Computing in Big Data Analytics" },
     <br />,
-    {topic: "Virtual and Augmented Reality (VR and AR)"},
+    { topic: "Virtual and Augmented Reality (VR and AR)" },
     <br />,
-    {topic: "Robotics"},
+    { topic: "Robotics" },
     <br />,
-    {topic: "Efficient Resource Utilization"},
+    { topic: "Efficient Resource Utilization" },
     <br />,
-    {topic: "Operating Systems and Middleware for Parallel Architecture"},
+    { topic: "Operating Systems and Middleware for Parallel Architecture" },
     <br />,
-    {topic: "Parallel Methods for Deep Learning and AI Design Patterns for Parallel Computing"},
+    {
+      topic:
+        "Parallel Methods for Deep Learning and AI Design Patterns for Parallel Computing",
+    },
     <br />,
-    {topic: "Load Balancing"},
+    { topic: "Load Balancing" },
     <br />,
-    {topic: "Theoretical Studies on Parallel/Grid Computing"},
+    { topic: "Theoretical Studies on Parallel/Grid Computing" },
     <br />,
-    {topic: "Novel System Architectures"},
+    { topic: "Novel System Architectures" },
     <br />,
-    {topic: "Heterogeneous Systems"},
+    { topic: "Heterogeneous Systems" },
     <br />,
-    {topic: "Real World Applications"},
+    { topic: "Real World Applications" },
     <br />,
-    {topic: "High Performance Computing"},
+    { topic: "High Performance Computing" },
     <br />,
-    {topic: "Software-Hardware Co-design"},
-  ]
+    { topic: "Software-Hardware Co-design" },
+  ];
 
   const track6 = [
-    {topic: "Smart cloud and IoT"},
+    { topic: "Smart cloud and IoT" },
     <br />,
-    {topic: "Smart homes and cities"},
+    { topic: "Smart homes and cities" },
     <br />,
-    {topic: "Adaptive user interfaces for smart applications"},
+    { topic: "Adaptive user interfaces for smart applications" },
     <br />,
-    {topic: "Interconnection of smart devices (things)"},
+    { topic: "Interconnection of smart devices (things)" },
     <br />,
-    {topic: "Dynamic urban communications Indoor communications"},
+    { topic: "Dynamic urban communications Indoor communications" },
     <br />,
-    {topic: "SMART healthcare and assisted living"},
+    { topic: "SMART healthcare and assisted living" },
     <br />,
-    {topic: "SMART transportation and vehicles"},
+    { topic: "SMART transportation and vehicles" },
     <br />,
-    {topic: "SMART phones applications and services"},
+    { topic: "SMART phones applications and services" },
     <br />,
-    {topic: "IoT network design and Cloud networks"},
+    { topic: "IoT network design and Cloud networks" },
     <br />,
-    {topic: "Networking technologies for data centres"},
+    { topic: "Networking technologies for data centres" },
     <br />,
-    {topic: "Software defined networking"},
+    { topic: "Software defined networking" },
     <br />,
-    {topic: "Network virtualization technologies"},
+    { topic: "Network virtualization technologies" },
     <br />,
-    {topic: "Embedded system architecture"},
+    { topic: "Embedded system architecture" },
     <br />,
-    {topic: "Adaptive and cognitive networks "},
+    { topic: "Adaptive and cognitive networks " },
     <br />,
-    {topic: "Wireless networks for IoT and Cloud"},
+    { topic: "Wireless networks for IoT and Cloud" },
     <br />,
-    {topic: "IoT-enabled home networks."},
+    { topic: "IoT-enabled home networks." },
     <br />,
-    {topic: "IoT and SMART cities"},
-  ]
-
+    { topic: "IoT and SMART cities" },
+  ];
 
   return (
-    <section className='py-10 text-gray' data-aos="fade-right">
+    <section className="py-10 text-gray" data-aos="fade-right">
       <div className="text-center mt-14">
         <h3 className="text-gray-600 font-semibold text-4xl">
           Conference <span className="text-[#3FBA96]">Tracks</span>
         </h3>
       </div>
 
-              {/* TRACK - 1 */}
-      <div className="mt-14 justify-center flex text-gray-600">
-        <table className="md:w-[1080px]">
+      {/* TRACK - 1 */}
+      <div className="mt-14 justify-center mx-6 flex text-gray-600">
+        <table className="md:mx-6 mx-10" width="700px">
           <thead>
             <tr>
-              <th colSpan="3" className="text-3xl text-[#A8271A]">
-                Track 1
-              </th>
+              <th className="text-3xl justify-start text-[#A8271A]">Track 1</th>
             </tr>
             <tr>
-              <th colSpan="3" className="text-3xl">
+              <th className="text-2xl">
                 Theme: Artificial Intelligence, Machine Learning & Data Science
               </th>
             </tr>
-            <br />
             <tr className="text-2xl">
               <th>Topics</th>
-              <th>Related IEEE Society(ies)</th>
-              <th>Chair</th>
+              {/* <th>Related IEEE Society(ies)</th>
+              <th>Chair</th> */}
             </tr>
           </thead>
-          <br />
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                {
-                  track1?.map((track1,i) =>(
-                    <p>{track1?.topic}</p>
-                  ))
-                }
+                <ul role="list" className="list-disc pl-5 text-slate-500">
+                  <li>Case-Based Reasoning and Learning</li>
+                  <li>Classification and Clustering</li>
+                  <li>Deep Learning</li>
+                  <li>Inductive Learning</li>
+                  <li>Inference Rule Learning</li>
+                  <li>Learning and Adaptive control</li>
+                  <li>Real Time Event Learning and Detection</li>
+                  <li>Natural Language Processing</li>
+                  <li>Similarity Measures and Learning of Similarity</li>
+                  <li>Statistical and Evolutionary Learning Soft Computing</li>
+                  <li>Image Processing and Computer Vision</li>
+                  <li>Internet of Things</li>
+                  <li>Virtual Reality and Augmented Reality</li>
+                  <li>Robotics</li>
+                  <li>Annotation of Media content</li>
+                  <li>Data Handling and Pre-processing</li>
+                  <li>Pattern Recognitions</li>
+                  <li>Feature Engineering and Feature Selection</li>
+                  <li>Computational Biology &amp; Bioinformatics</li>
+                  <li>Data Modeling &amp; Semantic Engineering</li>
+                  <li>
+                    High Performance Scientific/Engineering/ Commercial
+                    Applications
+                  </li>
+                  <li>Infoscience &amp; Computational Informatics</li>
+                  <li>Information Network Analytics</li>
+                  <li>Data Science Techniques for Handling</li>
+                  <li>Epidemic and Pandemic Situations</li>
+                  <li>Time Series and Sequential Pattern Mining</li>
+                </ul>
               </td>
-              <td><b>IEEE Computation Intelligence Society Chapter</b></td>
-              <td><b>Dr. Mandeep</b></td>
+              {/* <td><b>-</b></td>
+              <td><b>-</b></td> */}
+            </tr>
+          </tbody>
+        </table>
+
+        {/* Track- 2 */}
+
+        <table className="md:mx-6 mx-10" width="700px">
+          <thead>
+            <tr>
+              <th className="text-3xl text-[#A8271A]">Track 2</th>
+            </tr>
+            <tr>
+              <th className="text-2xl">
+                Theme : Cloud Computing, Block Chain &amp; Cyber Security
+              </th>
+            </tr>
+            <tr className="text-2xl">
+              <th>Topics</th>
+              {/* <th>Related IEEE Society(ies)</th>
+              <th>Chair</th> */}
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="justify-start text-lg">
+              <td>
+                <ul role="list" className="list-disc pl-5 text-slate-500">
+                  <li>Cloud Management and Operations</li>
+                  <li>Cloud Security</li>
+                  <li>Cloud Computing in Business Intelligence</li>
+                  <li>Cloud Performance</li>
+                  <li>Scalability and Reliability</li>
+                  <li>Data Analytics in Cloud</li>
+                  <li>Cloud Development and its Applications</li>
+                  <li>Bit coin and Cryptocurrency</li>
+                  <li>Transaction and Security Awareness Ethereum and <br /> Smart contract development</li>
+                  <li>Public vs Private Blockchain</li>
+                  <li>Current Blockchain Application and Platforms</li>
+                  <li>Identity and Authorization Systems Building Decentralized Autonomous Solutions</li>
+                  <li>Building Communication Network on Blockchain</li>
+                  <li>Access and Identity Management</li>
+                  <li>Integrity Issues and Ethical Hacking</li>
+                  <li>Emerging Threats.</li>
+                  <li>Cyber Crime and its Solutions</li>
+                  <li>Data Privacy</li>
+                </ul>
+              </td>
+              {/* <td className="text-center"><b>-</b></td>
+              <td className="text-center"><b>-</b></td> */}
             </tr>
           </tbody>
         </table>
       </div>
 
-                {/* Track- 2 */}
-
-      <div className="mt-14 justify-center flex text-gray-600 ">
-        <table width="1080px">
+      {/* TRACK - 3 */}
+      <div className="mt-14 justify-center mx-6 flex text-gray-600">
+        <table className="md:mx-6 mx-10" width="700px">
           <thead>
             <tr>
-              <th colSpan="3" className="text-4xl text-[#A8271A]">
-                Track 2
-              </th>
+              <th className="text-3xl justify-start text-[#A8271A]">Track 3</th>
             </tr>
             <tr>
-              <th colSpan="3" className="text-4xl">
-              Theme : Cloud Computing, Block Chain &amp; Cyber Security
-              </th>
-            </tr>
-            <br />
-            <tr className="text-2xl">
-              <th>Topics</th>
-              <th>Related IEEE Society(ies)</th>
-              <th>Chair</th>
-            </tr>
-          </thead>
-          <br />
-          <tbody>
-            <tr className="justify-start text-lg">
-              <td>
-                {
-                  track2?.map((track2,i) =>(
-                    <p>{track2?.topic}</p>
-                  ))
-                }
-              </td>
-              <td className="text-center"><b>IEEE Computer Society Chapter</b></td>
-              <td className="text-center"><b>Dr. Mandeep</b></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-                {/* TRACK - 3 */}
-
-        <div className="mt-14 justify-center  flex text-gray-600">
-        <table width="1080px">
-          <thead>
-            <tr>
-              <th colSpan="3" className="text-4xl text-[#A8271A]">
-                Track 3
-              </th>
-            </tr>
-            <tr>
-              <th colSpan="3" className="text-4xl">
+              <th className="text-2xl">
               Theme : Big Data Analytics &amp; Visualization
               </th>
             </tr>
-            <br />
             <tr className="text-2xl">
               <th>Topics</th>
-              <th>Related IEEE Society(ies)</th>
-              <th>Chair</th>
+              {/* <th>Related IEEE Society(ies)</th>
+              <th>Chair</th> */}
             </tr>
           </thead>
-          <br />
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                {
-                  track3?.map((track3,i) =>(
-                    <p>{track3?.topic}</p>
-                  ))
-                }
+                <ul role="list" className="list-disc pl-5 text-slate-500">
+                  <li>Big Data Analytics, and Applications</li>
+                  <li>Big Data Search and Mining</li>
+                  <li>Visualization Analytics for Big Data</li>
+                  <li>Data Acquisition, Integration,</li>
+                  <li>Cleaning, and Best Practices</li>
+                  <li>Scalability and Efficiency</li>
+                  <li>Critical Infrastructure Security</li>
+                </ul>
               </td>
-              <td className="text-center"><b>IEEE Computational Intelligence Society Chapter</b></td>
-              <td className="text-center"><b>-</b></td>
+              {/* <td><b>-</b></td>
+              <td><b>-</b></td> */}
             </tr>
           </tbody>
         </table>
-      </div>
 
-                                   {/* TRACK - 4 */}
+        {/* Track- 4 */}
 
-       <div className="mt-14 justify-center  flex text-gray-600">
-        <table width="1080px">
+        <table className="md:mx-6 mx-10">
           <thead>
             <tr>
-              <th colSpan="3" className="text-4xl text-[#A8271A]">
-                Track 4
-              </th>
+              <th className="text-3xl text-[#A8271A]">Track 4 </th>
             </tr>
             <tr>
-              <th colSpan="3" className="text-4xl">
+              <th className="text-2xl">
               Theme : Semantic Web &amp; Information Retrieval
               </th>
             </tr>
-            <br />
             <tr className="text-2xl">
               <th>Topics</th>
-              <th>Related IEEE Society(ies)</th>
-              <th>Chair</th>
+              {/* <th>Related IEEE Society(ies)</th>
+              <th>Chair</th> */}
             </tr>
           </thead>
-          <br />
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                {
-                  track4?.map((track4,i) =>(
-                    <p>{track4?.topic}</p>
-                  ))
-                }
+                <ul role="list" className="list-disc pl-5 text-slate-500">
+                  <li>Databases and Ontology-based data access, integration and exchange on Web</li>
+                  <li>Information retrieval and semantic analysis</li>
+                  <li>Semantic approaches in and for Information Extraction</li>
+                  <li>Knowledge Driven NLP</li>
+                  <li>Novel Techniques for the Semantic Web</li>
+                  <li>Multi-agent and autonomous systems</li>
+                  <li>Knowledge (e.g. construction, maintenance, reasoning) and virtual knowledge graphs</li>
+                  <li>Ontology based neural symbolic reasoning and learning</li>
+                  <li>Robust and scalable management of semantics and data</li>
+                  <li>Processing and storage of semantic data on the Blockchain</li>
+                  <li>Multi-modal semantic reasoning Programming the Semantic Web</li>
+                  <li>Semantic social network mining, analysis, representation, and management</li>
+                  <li>Geospatial semantics and data Trust, privacy, and security</li>
+                </ul>
               </td>
-              <td className="text-center"><b>IEEE Computational Intelligence Society Chapter</b></td>
-              <td className="text-center"><b>Dr Shabana Urooj, GBU, Gr. Noida</b></td>
+              {/* <td className="text-center"><b>-</b></td>
+              <td className="text-center"><b>-</b></td> */}
             </tr>
           </tbody>
         </table>
       </div>
+      
 
-
-                  {/* TRACK - 5 */}
-
-       <div className="mt-14 justify-center  flex text-gray-600">
-        <table width="1080px">
+      {/* TRACK - 5 */}
+      <div className="mt-14 justify-center mx-6 flex text-gray-600">
+        <table className="md:mx-6 mx-10" width="700px">
           <thead>
             <tr>
-              <th colSpan="3" className="text-4xl text-[#A8271A]">
-                Track 5
-              </th>
+              <th className="text-3xl justify-start text-[#A8271A]">Track 5</th>
             </tr>
             <tr>
-              <th colSpan="3" className="text-4xl">
+              <th className="text-2xl">
               Theme : GPU &amp; Parallel Computing
               </th>
             </tr>
-            <br />
             <tr className="text-2xl">
               <th>Topics</th>
-              <th>Related IEEE Society(ies)</th>
-              <th>Chair</th>
+              {/* <th>Related IEEE Society(ies)</th>
+              <th>Chair</th> */}
             </tr>
           </thead>
-          <br />
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                {
-                  track5?.map((track5,i) =>(
-                    <p>{track5?.topic}</p>
-                  ))
-                }
+                <ul role="list" className="list-disc pl-5 text-slate-500">
+                  <li>Multicore and Many Core Systems</li>
+                  <li>High Performance Systems</li>
+                  <li>Interconnection Networks</li>
+                  <li>Energy Efficient Design</li>
+                  <li>Performance Evaluation of Paralle Algorithms</li>
+                  <li>Parallel Programming Languages FPGA’s and GPGPU</li>
+                  <li>Compilers in Parallel Environment Stream Processors in GPU</li>
+                  <li>Parallel Computing in Big Data Analytics</li>
+                  <li>Virtual and Augmented Reality (VR and AR)</li>
+                  <li>Robotics</li>
+                  <li>Efficient Resource Utilization</li>
+                  <li>Operating Systems and Middleware for Parallel Architecture</li>
+                  <li>Parallel Methods for Deep Learning and AI Design Patterns for Parallel Computing</li>
+                  <li>Parallel Sparse Matrix Computations</li>
+                  <li>Load Balancing</li>
+                  <li>Theoretical Studies on Parallel/Grid Computing</li>
+                  <li>Novel System Architectures</li>
+                  <li>Heterogeneous Systems</li>
+                  <li>Real World Applications</li>
+                  <li>High Performance Computing</li>
+                  <li>Software-Hardware Co-design</li>
+                </ul>
               </td>
-              <td className="text-center"><b>IEEE Technology and Engineering Management Society Chapter</b></td>
-              <td className="text-center"><b>-</b></td>
+              {/* <td><b>-</b></td>
+              <td><b>-</b></td> */}
             </tr>
           </tbody>
         </table>
-      </div>
 
+        {/* Track- 6 */}
 
-       {/* TRACK - 6 */}
-
-       <div className="mt-14 justify-center  flex text-gray-600">
-        <table width="1080px">
+        <table className="md:mx-6 mx-10" width="700px">
           <thead>
             <tr>
-              <th colSpan="3" className="text-4xl text-[#A8271A]">
-                Track 6
-              </th>
+              <th className="text-3xl text-[#A8271A]">Track 6 </th>
             </tr>
             <tr>
-              <th colSpan="3" className="text-4xl">
-              Theme : Internet of Everything
+              <th className="text-2xl">
+              Theme : 6 Internet of Everything
               </th>
             </tr>
-            <br />
             <tr className="text-2xl">
               <th>Topics</th>
-              <th>Related IEEE Society(ies)</th>
-              <th>Chair</th>
+              {/* <th>Related IEEE Society(ies)</th>
+              <th>Chair</th> */}
             </tr>
           </thead>
-          <br />
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                {
-                  track6?.map((track6,i) =>(
-                    <p>{track6?.topic}</p>
-                  ))
-                }
+                <ul role="list" className="list-disc pl-5 text-slate-500">
+                  <li>Smart cloud and IoT</li>
+                  <li>ISmart homes and cities</li>
+                  <li>SAdaptive user interfaces for smart applications</li>
+                  <li>Interconnection of smart devices (things)</li>
+                  <li>NDynamic urban communications</li>
+                  <li>Indoor communications</li>
+                  <li>SMART healthcare and assisted living</li>
+                  <li>SMART transportation and vehicles</li>
+                  <li>SMART phones applications and services</li>
+                  <li>PIoT network design and Cloud networks</li>
+                  <li>Networking technologies for data centres</li>
+                  <li>Software defined networking</li>
+                  <li>Network virtualization technologies</li>
+                  <li>Embedded system architecture</li>
+                  <li>Adaptive and cognitive networks</li>
+                  <li>Wireless networks for IoT and Cloud</li>
+                  <li>IoT-enabled home networks.</li>
+                  <li>IoT and SMART cities</li>
+                </ul>
               </td>
-              <td className="text-center"><b>IEEE Technology and Engineering</b></td>
-              <td className="text-center"><b>-</b></td>
+              {/* <td className="text-center"><b>-</b></td>
+              <td className="text-center"><b>-</b></td> */}
             </tr>
           </tbody>
         </table>

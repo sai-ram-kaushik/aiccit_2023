@@ -14,7 +14,7 @@ const Footer = () => {
       details: "aiccit2023@gmail.com",
       icons: <AiOutlineMail />,
     },
-    { name: "Location", details: "MRIIRS Campus", icons: <GoLocation /> },
+    { name: "Location", details: "MRIIRS Campus", icons: <GoLocation /> },  
   ];
   return (
     <div className="w-full bg-[#1B1464] mt-14">
@@ -25,6 +25,7 @@ const Footer = () => {
                 ))
             }
       </div>
+      <p className="text-white flex text-center items-center justify-center mt-8">Copyright &#169; AICCIT - 2023. All Rights Reserved</p>
     </div>
   );
 };
