@@ -14,18 +14,27 @@ const Footer = () => {
       details: "aiccit2023@gmail.com",
       icons: <AiOutlineMail />,
     },
-    { name: "Location", details: "MRIIRS Campus", icons: <GoLocation /> },  
+    { name: "Location", details: "MRIIRS Campus", icons: <GoLocation /> },
   ];
   return (
-    <div className="w-full bg-[#1B1464] mt-14">
-      <div className="text-white flex md:flex-row flex-col items-center leading-10 justify-center md:gap-80 gap-10 text-2xl">
-      {
-                contact?.map((contact, i) =>(
-                    <p key={i}>{contact?.name}<br />{contact?.details}</p>
-                ))
-            }
+    <div className="w-full bg-[#1B1464] mt-14 p-3">
+      <div className="text-white flex md:flex-row flex-col items-center leading-5 justify-center md:gap-80 gap-10 text-2xl">
+        {contact?.map((contact, i) => (
+          <div key={i}>
+            <div className="flex justify-center items-center gap-3">
+              {contact?.icons}
+              {contact?.name}
+            </div>
+            <br />
+            <div>
+              {contact?.details}
+            </div>
+          </div>
+        ))}
       </div>
-      <p className="text-white flex text-center items-center justify-center mt-8">Copyright &#169; AICCIT - 2023. All Rights Reserved</p>
+      <p className="text-white flex text-center items-center justify-center mt-8">
+        Copyright &#169; AICCIT - 2023. All Rights Reserved
+      </p>
     </div>
   );
 };

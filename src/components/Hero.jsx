@@ -50,8 +50,8 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="py-10" data-aos="fade-right">
-        <div className="text-center mt-60 ">
+      <div className="py-10">
+        <div className="text-center mt-60 " data-aos="fade-right">
           <h3 className="text-4xl text-gray-600 font-semibold">
             About <span className="text-[#3FBA96]">Conference</span>
           </h3>
