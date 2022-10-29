@@ -22,7 +22,7 @@ function App() {
         <Route path="/conference_track" element={<ConferenceTrack />} />
         <Route path="/glimps" element={<Glimps />} />
         <Route path="/dates" element={<Dates />} />
-        <Route path="/submission" element={<Submission />} />
+        <Route path="/submission" element={<Submission  />} />
         <Route path="/register" element={<Register />} />
         <Route path="/committee" element={<Committee />} />
         <Route path="/advisory_committee" element={<AdvisoryCommittee />} />
