@@ -16,7 +16,7 @@ const AdvisoryCommittee = () => {
         <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
         International Advisory Committee
         </p>
-        <p className="text-gray-600 my-3 text-2xl mt-14 font-bold leading-10">
+        <p className="text-gray-600 my-3 text-2xl mt-14 leading-10">
         Dr. Anand Nayyar, Graduate School Duy Tan University Vietnam <br />
         Dr. Anil Kumar, London Metropolitan University, United Kingdom (UK) <br/>
         Ms. Nitika Lochab, Corporate Treasury, TechnipFMC, Paris, France <br />
@@ -33,7 +33,7 @@ const AdvisoryCommittee = () => {
         <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
         National Advisory Committee
         </p>
-        <p className="text-gray-600 my-3 text-2xl mt-14 font-bold leading-10">
+        <p className="text-gray-600 my-3 text-2xl mt-14  leading-10">
         Dr K.K Aggarwal, Former VC, IP University, India <br />
         Dr M.N Hoda, BVPIM, Delhi, India <br/>
         Dr K K Biswas, IIT Delhi, India <br />

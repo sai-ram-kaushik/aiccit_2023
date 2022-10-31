@@ -24,7 +24,7 @@ const Hero = () => {
                 <span className="text-[#3FBA96]">I</span>nternational{" "}
                 <span className="text-[#3FBA96]">C</span>onferene on
               </p>
-              <div className="md:text-4xl text-lg md:leading-normal leading-5 mt-1 font-bold text-[#3FBA96] ">
+              <div className="md:text-4xl text-lg md:leading-normal leading-3 mt-1 font-bold text-[#3FBA96] ">
                 <span className="text-gray-600 text-3xl">
                   <span className="text-[#3FBA96]">A</span>dvancing in{" "}
                 </span>

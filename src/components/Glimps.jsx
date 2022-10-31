@@ -70,7 +70,7 @@ const Glimps = () => {
                 hundred fourteen research papers were presented and are
                 submitted to IEEE for inclusion in ieeeexplore. The proceedings
                 of the Com-IT-Con 2019 are available at:<br />
-                 <a href="https://ieeexplore.ieee.org/xpl/conhome/8851231/proceeding" target="__blank" className="text-blue-500">https://ieeexplore.ieee.org/xpl/conhome/8851231/proceeding</a>
+                 <a href="https://ieeexplore.ieee.org/xpl/conhome/8851231/proceeding" target="__blank" className="text-blue-500 flex flex-wrap">https://ieeexplore.ieee.org/xpl/conhome/8851231/proceeding</a>
               </p>
             </div>
           </div>

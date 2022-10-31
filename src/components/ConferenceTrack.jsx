@@ -18,7 +18,7 @@ const ConferenceTrack = () => {
 
       {/* TRACK - 1 */}
       <div className="mt-14 justify-center mx-6 flex text-gray-600" data-aos="fade-right">
-        <table className="md:mx-6 mx-10" width="700px">
+        <table className="md:mx-6 mx-[-8px]" width="700px">
           <thead>
             <tr>
               <th className="text-3xl justify-start text-[#A8271A]">Track 1</th>
@@ -77,7 +77,7 @@ const ConferenceTrack = () => {
 
         {/* Track- 2 */}
 
-        <table className="md:mx-6 mx-10" width="700px">
+        <table className="md:mx-6 mx-[5px]" width="700px">
           <thead>
             <tr>
               <th className="text-3xl text-[#A8271A]">Track 2</th>

@@ -16,7 +16,7 @@ const Technical = () => {
         <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
         Local Technical Advisory Committee
         </p>
-        <p className="text-gray-600 my-3 text-2xl mt-14 font-bold leading-10">
+        <p className="text-gray-600 my-3 text-2xl mt-14 leading-10">
         Prof. Sarita Sachdeva, Ex Director &amp; Dean R&amp;D,MRIIRS <br />
         Prof. Leena G, HOD- EEE, FET <br />
         Prof. Devendra Vashisht, HOD- AU, FET <br />
@@ -30,7 +30,9 @@ const Technical = () => {
         <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
         Organizing Secretary
         </p>
-        <p className="text-gray-600 my-3 text-2xl mt-14 font-bold leading-10">
+        <p className="text-gray-600 my-3 text-2xl mt-14 leading-10">
+        Dr. Poonam Nandal, CSE, FET, MRIIRS<br />
+        Dr. Deepa Bura, CSE, FET, MRIIRS <br />
         Dr. Rosy Madaan, CSE, FET, MRIIRS <br />
         Dr. Nitasha Soni , CSE, FET, MRIIRS <br />
         </p>
@@ -38,7 +40,7 @@ const Technical = () => {
         <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
         Organizing Committee
         </p>
-        <p className="text-gray-600 my-3 text-2xl mt-14 font-bold leading-10">
+        <p className="text-gray-600 my-3 text-2xl mt-14 leading-10">
         CSE, FET, MRIIRS
         </p>
       </div>
