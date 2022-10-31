@@ -28,7 +28,7 @@ const Technical = () => {
         </p>
 
         <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
-        Organizing Secretary
+        Organizing Secretaries
         </p>
         <p className="text-gray-600 my-3 text-2xl mt-14 leading-10">
         Dr. Poonam Nandal, CSE, FET, MRIIRS<br />
