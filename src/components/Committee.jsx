@@ -33,20 +33,20 @@ const Committee = () => {
            Co-Patrons
         </p>
         <p className="text-gray-600 my-3 text-2xl mt-14  leading-10">
-        Dr. Geeta  Nijhawan , Associate Dean , FET,MRIIRS <br />
+        Dr. Geeta Nijhawan, Associate Dean , FET,MRIIRS <br />
         Dr. Brijesh Kumar, Associate Dean Academics , MRIIRS <br />
         </p>
         <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
            General Chair
         </p>
         <p className="text-gray-600 my-3 text-2xl mt-14  leading-10">
-        Dr. Suresh Kumar, Professor, CSE, FET, MRIIRS
+        Dr. Tapas Kumar, Professor Head, CSE, FET, MRIIRS
         </p>
         <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
            Chair
         </p>
         <p className="text-gray-600 my-3 text-2xl mt-14  leading-10">
-        Dr. Tapas Kumar, Professor Head, CSE, FET, MRIIRS
+        Dr. Suresh Kumar, Professor, CSE, FET, MRIIRS
         </p>
         <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
            Co-Chair

@@ -1,14 +1,20 @@
 import React from "react";
-
+import {useEffect} from "react";
+import Aos from "aos";
 const Submission = () => {
+
+  useEffect(() =>{
+    Aos.init({duration: 2000});
+  }, []);
+
   return (
-    <section className="py-10 text-gray-600" data-aos="fade-right">
-      <div className="text-center mt-14">
+    <section className="py-10 text-gray-600">
+      <div className="text-center mt-14" data-aos="fade-right">
         <h3 className="text-gray-600 md:text-5xl text-3xl font-semibold ">
           Submission <span className="text-[#3FBA96]">Guidelines</span>
         </h3>
         <p className="text-[#A8271A] my-3 text-2xl mt-14 font-bold">
-          Information to help preapre the Blinded Manuscripts:
+          Information to help prepare the Blinded Manuscripts:
         </p>
         <div className="text-gray-600 my-3 mt-8 flex justify-center">
           <p className="justify-center leading-8 text-lg">
