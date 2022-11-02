@@ -12,6 +12,7 @@ import Committee from './components/Committee'
 import AdvisoryCommittee from "./components/AdvisoryCommittee";
 import Technical from "./components/Technical";
 import Submission from "./components/Submission";
+import ResourcePerson from "./components/ResourcePerson";
 function App() {
   return (
     <BrowserRouter>
@@ -27,6 +28,7 @@ function App() {
         <Route path="/committee" element={<Committee />} />
         <Route path="/advisory_committee" element={<AdvisoryCommittee />} />
         <Route path="/technical_advisory_committee" element={<Technical />} />
+        <Route path="/resource_person" element={<ResourcePerson />} />
       </Routes>
       <Partners />
       <Footer />

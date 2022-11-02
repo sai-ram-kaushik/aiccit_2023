@@ -57,10 +57,10 @@ const Submission = () => {
             <li>References</li>
           </ul>
         </div>
-        <p className="text-[#A8271A] my-3 text-2xl mt-14 font-bold">
+        <p className="text-[#A8271A] my-3 text-2xl mt-20 font-bold" data-aos="fade-right">
           IEEE Template Link:
         </p>
-        <p className="md:text-2xl text-xl text-blue-500">
+        <p className="md:text-2xl text-xl text-blue-500" data-aos="fade-right">
           <a
             href="https://www.ieee.org/conferences/publishing/templates.html"
             target="__blank"
