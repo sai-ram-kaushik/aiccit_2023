@@ -15,7 +15,6 @@ const Navbar = () => {
   const [sticky, setSticky] = useState(false);
   const [open, setOpen] = useState(false);
 
-
   useEffect(() => {
     window.addEventListener("scroll", () => {
       const nav = document.querySelector("nav");
@@ -30,7 +29,9 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between ">
         <div className="mx-7">
-          <Link to="/"><img src={logo}  width="200px" /></Link>
+          <Link to="/">
+            <img src={logo} width="200px" />
+          </Link>
         </div>
         <div className="text-gray-600 md:block hidden px-7 py-2 font-bold">
           <ul className="flex items-center gap-10 py-2 text-[13px]">
@@ -102,7 +103,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Organizing committee 
+                          Organizing committee
                         </Link>
                       )}
                     </Menu.Item>
@@ -110,12 +111,29 @@ const Navbar = () => {
                 </Menu.Items>
               </Transition>
             </Menu>
-            <Link to="/conference_track" className="hover:text-[#3FBA96]">Conference Track</Link>
-            <Link to="/dates" className="hover:text-[#3FBA96]">Important Dates</Link>
-            <Link to="/submission" className="hover:text-[#3FBA96]">Submission</Link>
-            <Link to="/register" className="hover:text-[#3FBA96]">Registration</Link>
-            <Link to="/glimps" className="hover:text-[#3FBA96]">Previous Year Conferences</Link>
+            <Link to="/conference_track" className="hover:text-[#3FBA96]">
+              Conference Track
+            </Link>
+            <Link to="/dates" className="hover:text-[#3FBA96]">
+              Important Dates
+            </Link>
+            <Link to="/submission" className="hover:text-[#3FBA96]">
+              Submission
+            </Link>
+            <Link to="/register" className="hover:text-[#3FBA96]">
+              Registration
+            </Link>
+            <Link to="/glimps" className="hover:text-[#3FBA96]">
+              Previous Year Conferences
+            </Link>
           </ul>
+        </div>
+        <div className="flex items-center justify-between ">
+          <div className="mx-7">
+            <a href="https://manavrachna.edu.in/" target="__blank">
+              <img src={mrlogo} width="200px" />
+            </a>
+          </div>
         </div>
         <div
           onClick={() => setOpen(!open)}
@@ -131,7 +149,7 @@ const Navbar = () => {
           }`}
         >
           <ul className="flex flex-col justify-center h-full gap-10 py-2 text-lg">
-          <Link to="/" className="hover:text-[#3FBA96] px-6">
+            <Link to="/" className="hover:text-[#3FBA96] px-6">
               Home
             </Link>
             <Link to="/about" className="hover:text-[#3FBA96] px-6">
@@ -199,7 +217,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Organizing committee 
+                          Organizing committee
                         </Link>
                       )}
                     </Menu.Item>
@@ -207,11 +225,21 @@ const Navbar = () => {
                 </Menu.Items>
               </Transition>
             </Menu>
-            <Link to="/conference_track" className="hover:text-[#3FBA96] px-6">Conference Track</Link>
-            <Link to="/dates" className="hover:text-[#3FBA96] px-6">Important Dates</Link>
-            <Link to="/submission" className="hover:text-[#3FBA96]">Submission</Link>
-            <Link to="/register" className="hover:text-[#3FBA96] px-6">Registration</Link>
-            <Link to="/glimps" className="hover:text-[#3FBA96] px-6">Previous Year conferences</Link>
+            <Link to="/conference_track" className="hover:text-[#3FBA96] px-6">
+              Conference Track
+            </Link>
+            <Link to="/dates" className="hover:text-[#3FBA96] px-6">
+              Important Dates
+            </Link>
+            <Link to="/submission" className="hover:text-[#3FBA96]">
+              Submission
+            </Link>
+            <Link to="/register" className="hover:text-[#3FBA96] px-6">
+              Registration
+            </Link>
+            <Link to="/glimps" className="hover:text-[#3FBA96] px-6">
+              Previous Year conferences
+            </Link>
             <img src={mrlogo} className="w-9/12 mt-14 px-6" />
           </ul>
         </div>
