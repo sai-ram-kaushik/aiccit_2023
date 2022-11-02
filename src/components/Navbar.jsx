@@ -34,7 +34,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="text-gray-600 md:block hidden px-7 py-2 font-bold">
-          <ul className="flex items-center gap-10 py-2 text-[13px]">
+          <ul className="flex items-center gap-10 py-2 text-[15px]">
             <Link to="/" className="hover:text-[#3FBA96]">
               Home
             </Link>
@@ -73,6 +73,7 @@ const Navbar = () => {
                         >
                           International and national advisory Committe
                         </Link>
+
                       )}
                     </Menu.Item>
                     <Menu.Item>
