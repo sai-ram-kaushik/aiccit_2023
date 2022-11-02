@@ -130,7 +130,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center justify-between ">
           <div className="mx-7">
-            <a href="https://manavrachna.edu.in/" target="__blank">
+            <a href="https://manavrachna.edu.in/" target="__blank" className="md:flex hidden">
               <img src={mrlogo} width="200px" />
             </a>
           </div>
