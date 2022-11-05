@@ -60,7 +60,7 @@ const Submission = () => {
         <p className="text-[#A8271A] my-3 text-2xl mt-20 font-bold" data-aos="fade-right">
           IEEE Template Link:
         </p>
-        <p className="md:text-2xl text-xl text-blue-500" data-aos="fade-right">
+        <p className="md:text-2xl text-xl text-blue-500" data-aos="fade-right" >
           <a
             href="https://www.ieee.org/conferences/publishing/templates.html"
             target="__blank"
@@ -68,11 +68,11 @@ const Submission = () => {
             https://www.ieee.org/conferences<br />/publishing/templates.html
           </a>
         </p>
-        <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
+        <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold" data-aos="fade-right">
           Paper Submission:
         </p>
-        <p className="font-bold text-xl leading-14">Authors can submit the abstract/full paper for AICCIT-2023 via easy chair using the link:</p>
-        <a href="https://easychair.org/conferences/?conf=aiccit2023" target="__black" className="text-lg text-blue-500">https://easychair.org/conferences/?conf=aiccit2023</a>
+        <p className="font-bold text-xl leading-14" data-aos="fade-right">Authors can submit the abstract/full paper for AICCIT-2023 via easy chair using the link:</p>
+        <a href="https://easychair.org/conferences/?conf=aiccit2023" target="__black" className="text-lg text-blue-500" data-aos="fade-right">https://easychair.org/conferences/?conf=aiccit2023</a>
       </div>
     </section>
   );

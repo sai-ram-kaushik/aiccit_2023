@@ -20,23 +20,23 @@ const Dates = () => {
         <table>
           <tr className="text-2xl">
             <td>Paper Submission Deadline:</td>
-            <td>30<sup>th</sup> Dec, 2022</td>
+            <td>15<sup>th</sup> July, 2023</td>
           </tr>
           <tr className="text-2xl">
             <td>Acceptance Notification:</td>
-            <td>20<sup>th</sup> March, 2023</td>
+            <td>5<sup>th</sup> September, 2023</td>
           </tr>
           <tr className="text-2xl">
             <td>Camera Ready Paper Submission Deadline:</td>
-            <td>30<sup>th</sup> March, 2023</td>
+            <td>30<sup>th</sup> September, 2023</td>
           </tr>
           <tr className="text-2xl">
             <td>Last Date for Registration:</td>
-            <td>20<sup>th</sup> April, 2023</td>
+            <td>10<sup>th</sup> October, 2023</td>
           </tr>
           <tr className="text-2xl">
             <td>Conference Dates:</td>
-            <td>29 & 30<sup>th</sup> June, 2023</td>
+            <td>23<sup>rd</sup> & 24<sup>th</sup> November, 2023</td>
           </tr>
         </table>
       </div>

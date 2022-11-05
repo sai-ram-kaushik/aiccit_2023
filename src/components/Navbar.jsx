@@ -151,6 +151,9 @@ const Navbar = () => {
             </a>
           </div>
         </div>
+
+                                   {/* Responsive Mode */}
+
         <div
           onClick={() => setOpen(!open)}
           className={`z-[999] ${
