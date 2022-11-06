@@ -81,7 +81,7 @@ const Skills = () => {
 
 
         <p className='text-[#A8271A] mt-20 text-3xl font-bold' data-aos="fade-right">Patrons</p>
-        <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
+        <div className='flex items-center justify-center mt-12 gap-10 flex-wrap'data-aos="fade-right">
           {
             patrons?.map((patrons,i) =>(
               <div key={i} className='border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl'>
