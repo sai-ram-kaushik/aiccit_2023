@@ -1,69 +1,172 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from 'react'
 import Aos from "aos";
-import "aos/dist/aos.css"
-const Committee = () => {
+import 'aos/dist/aos.css';
+const Skills = () => {
 
   useEffect(() =>{
     Aos.init({duration: 2000});
   }, []);
 
+  const chief_patron = [
+    {
+      photo: "images/chief_patrons/prashant.webp", designation: 'President, MREI', name: 'Dr. Prashant Bhalla' 
+    },
+    {
+      photo: "images/chief_patrons/Amit.jpg", designation: 'Vice President, MREI', name: 'Dr. Prashant Bhalla' 
+    },
+  ]
+
+  const patrons = [
+    {
+      photo: "images/patrons/sanjay.jpg", designation: 'Vice Chancellor, MRIIRS', name: 'Dr. Sanjay Shrivastava'
+    },
+    {
+      photo: "images/patrons/naresh.jpg", designation: 'Pro Vice Chancellor', name: 'Dr. Naresh Grover' 
+    },
+    {
+      photo: "images/patrons/pardeep.jpg", designation: 'Pro Vice Chancellor, MRIIRS', name: 'Dr. Pardeep Kumar' 
+    },
+    {
+      photo: "images/patrons/Arora.jpg", designation: 'Registrar, MRIIRS', name: 'Shri. R.K Arora' 
+    },
+  ]
+
+  const general_chair = [
+    {
+      photo: "images/general_chair/Tapas.jpeg", designation: "Professor Head, CSE, FET, MRIIRS", name: "Dr. Tapas Kumar"
+    }
+  ]
+
+  const chair = [
+    {
+      photo: "images/chair/suresh.jpg", designation: "Professor, CSE, FET, MRIIRS", name: "Dr. Suresh Kumar"
+    }
+  ]
+
+  const co_chair = [
+    {
+      photo: "images/co-chair/supriya.jpg", designation: "Professor, CSE, FET, MRIIIRS",name: "Dr. Supriya P. Panda"
+    },
+    {
+      photo: "images/co-chair/charu.jpeg", designation: "Professor Head, CSE, FET, MRIIIRS",name: "Dr. Charu Virmani"
+    }
+  ]
+
+  const convener = [
+    {
+      photo: "images/convener/poonam.jpeg", designation: "Professor, CSE, FET, MRIIRS", name: "Dr. Poonam Tanwar"
+    }
+  ]
+
   return (
-    <section className="py-10 text-gray-600" data-aos="fade-right">
-      <div className="text-center mt-14">
-        <h3 className="text-gray-600 text-5xl font-semibold ">
-          Conference <span className="text-[#3FBA96]">Committee</span>
-        </h3>
-        <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
-          Chief Patrons
-        </p>
-        <p className="text-gray-600 my-3 text-2xl mt-14  leading-10">
-        Dr. Prashant Bhalla, President,MREI <br />
-        Dr. Amit Bhalla, Vice President,MREI
-        </p>
-        <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
-           Patrons
-        </p>
-        <p className="text-gray-600 my-3 text-2xl mt-14  leading-10">
-        Dr. Sanjay Shrivastava, Vice Chancellor, MRIIRS <br />
-        Dr. Naresh Grover, Pro Vice Chancellor, MRIIRS <br />
-        Dr. Pardeep Kumar, Pro Vice Chancellor, MRIIRS <br/>
-        Shri R .K Arora, Registrar, MRIIRS
-        </p>
-        <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
-           Co-Patrons
-        </p>
-        <p className="text-gray-600 my-3 text-2xl mt-14  leading-10">
-        Dr. Geeta Nijhawan, Associate Dean , FET,MRIIRS <br />
-        Dr. Brijesh Kumar, Associate Dean Academics , MRIIRS <br />
-        </p>
-        <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
-           General Chair
-        </p>
-        <p className="text-gray-600 my-3 text-2xl mt-14  leading-10">
-        Dr. Tapas Kumar, Professor Head, CSE, FET, MRIIRS
-        </p>
-        <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
-           Chair
-        </p>
-        <p className="text-gray-600 my-3 text-2xl mt-14  leading-10">
-        Dr. Suresh Kumar, Professor, CSE, FET, MRIIRS
-        </p>
-        <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
-           Co-Chair
-        </p>
-        <p className="text-gray-600 my-3 text-2xl mt-14  leading-10">
-        Dr. Supriya P. Panda, Professor, CSE, FET, MRIIRS<br/>
-        Dr. Charu Virmani, Professor Head, CSE, FET, MRIIRS
-        </p>
-        <p className="text-[#A8271A] my-3 text-3xl mt-14 font-bold">
-           Convener
-        </p>
-        <p className="text-gray-600 my-3 text-2xl mt-14  leading-10">
-        Dr. Poonam Tanwar, Professor, CSE, FET, MRIIRS
-        </p>
+    <section id='skills' className='py-10 relative'>
+      <div className='mt-20 text-gray-600 text-center'>
+        <h3 className='text-4xl font-semibold' data-aos="fade-right">Conference <span className='text-[#3FBA96]'>Committee</span></h3>
+        <p className='text-[#A8271A] mt-14 text-3xl font-bold' data-aos="fade-right">Chief Patrons</p>
+        <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
+          {
+            chief_patron?.map((chief_patron,i) =>(
+              <div key={i} className='border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem]  p-10 rounded-xl'>
+            <div className='flex items-center justify-center'>
+              <div className='text-6xl group-hover:text-cyan-600'>
+                <img src={chief_patron.photo} className="rounded-full"/>
+              </div>
+            </div>
+            <p className='text-lg mt-2 text-gray-600'>{chief_patron.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{chief_patron.designation}</p>
+          </div>
+            ))
+          }
+        </div>
+
+
+        <p className='text-[#A8271A] mt-20 text-3xl font-bold' data-aos="fade-right">Patrons</p>
+        <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
+          {
+            patrons?.map((patrons,i) =>(
+              <div key={i} className='border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl'>
+            <div className='flex items-center justify-center'>
+              <div className='text-6xl group-hover:text-cyan-600'>
+                <img src={patrons.photo} className="rounded-full"/>
+              </div>
+            </div>
+            <p className='text-lg mt-2 text-gray-600'>{patrons.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{patrons.designation}</p>
+          </div>
+            ))
+          }
+        </div>
+
+
+        <p className='text-[#A8271A] mt-20 text-3xl font-bold' data-aos="fade-right">General Chair</p>
+        <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
+          {
+            general_chair?.map((general_chair,i) =>(
+              <div key={i} className='border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl'>
+            <div className='flex items-center justify-center'>
+              <div className='text-6xl group-hover:text-cyan-600'>
+                <img src={general_chair.photo} className="rounded-full"/>
+              </div>
+            </div>
+            <p className='text-lg mt-2 text-gray-600'>{general_chair.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{general_chair.designation}</p>
+          </div>
+            ))
+          }
+        </div>
+        <p className='text-[#A8271A] mt-20 text-3xl font-bold' data-aos="fade-right">Chair</p>
+        <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
+          {
+            chair?.map((chair,i) =>(
+              <div key={i} className='border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl'>
+            <div className='flex items-center justify-center'>
+              <div className='text-6xl group-hover:text-cyan-600'>
+                <img src={chair.photo} className="rounded-full"/>
+              </div>
+            </div>
+            <p className='text-lg mt-2 text-gray-600'>{chair.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{chair.designation}</p>
+          </div>
+            ))
+          }
+        </div>
+
+        <p className='text-[#A8271A] mt-20 text-3xl font-bold' data-aos="fade-right">Co-Chair</p>
+        <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
+          {
+            co_chair?.map((co_chair,i) =>(
+              <div key={i} className='border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl'>
+            <div className='flex items-center justify-center'>
+              <div className='text-6xl group-hover:text-cyan-600'>
+                <img src={co_chair.photo} className="rounded-full"/>
+              </div>
+            </div>
+            <p className='text-lg mt-2 text-gray-600'>{co_chair.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{co_chair.designation}</p>
+          </div>
+            ))
+          }
+        </div>
+
+        <p className='text-[#A8271A] mt-20 text-3xl font-bold' data-aos="fade-right">Convener</p>
+        <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
+          {
+            convener?.map((convener,i) =>(
+              <div key={i} className='border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl'>
+            <div className='flex items-center justify-center'>
+              <div className='text-6xl group-hover:text-cyan-600'>
+                <img src={convener.photo} className="rounded-full"/>
+              </div>
+            </div>
+            <p className='text-lg mt-2 text-gray-600'>{convener.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{convener.designation}</p>
+          </div>
+            ))
+          }
+        </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Committee;
+export default Skills
