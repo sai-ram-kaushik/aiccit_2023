@@ -158,7 +158,7 @@ const Navbar = () => {
           onClick={() => setOpen(!open)}
           className={`z-[999] ${
             open ? "text-gray-900" : "text-gray-800"
-          } text-3xl md:hidden m-5`}
+          } text-3xl md:hidden m-5 `}
         >
           <CgMenuRight />
         </div>
@@ -167,8 +167,8 @@ const Navbar = () => {
             open ? "right-0" : "right-[-100%]"
           }`}
         >
-          <ul className="flex flex-col justify-center h-full gap-10 py-2 text-lg">
-            <Link to="/" className="hover:text-[#3FBA96] px-6">
+          <ul className="flex flex-col justify-center h-full gap-10 pt-[6.5rem] text-lg">
+            <Link to="/" className="hover:text-[#3FBA96] px-6 ">
               Home
             </Link>
             <Link to="/about" className="hover:text-[#3FBA96] px-6">
@@ -274,7 +274,7 @@ const Navbar = () => {
             <Link to="/glimps" className="hover:text-[#3FBA96] px-6">
               Previous Year conferences
             </Link>
-            <img src={mrlogo} className="w-9/12 mt-14 px-6" />
+            <img src={mrlogo} className="w-9/12 mt-2 px-6" />
           </ul>
         </div>
         {/* <div className="mx-7 md:block hidden">
