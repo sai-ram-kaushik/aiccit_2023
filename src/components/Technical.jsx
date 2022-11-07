@@ -35,20 +35,6 @@ const Technical = () => {
     },
   ]
 
-  const organizing = [
-    {
-      photo: "images/organizing/poonam_nandal.jpg", name: "Dr. Poonam Nandal", designation: "Professor, CSE, FET, MRIIRS"
-    },
-    {
-      photo: "images/organizing/deepa_bura.jpg", name: "Dr. Deepa Bura", designation: "Professor, CSE, FET, MRIIRS"
-    },
-    {
-      photo: "images/organizing/rosy_madaan.png", name: "Dr. Rosy Madaan", designation: "Professor, CSE, FET, MRIIRS"
-    },
-    {
-      photo: "images/organizing/nitasha_soni.jpg", name: "Dr. Nitasha Soni", designation: "Professor, CSE, FET, MRIIRS"
-    }
-  ]
 
   return (
     <section id="skills" className="py-10 relative">
@@ -79,34 +65,6 @@ const Technical = () => {
               <p className="text-lg mt-2 text-gray-600">{local.name}</p>
               <p className="text-lg mt-3 text-gray-600">
                 {local.designation}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        <p
-          className="text-[#A8271A] mt-14 text-3xl font-bold"
-          data-aos="fade-right"
-        >
-          Organizing Secretaries
-        </p>
-        <div
-          className="flex items-center justify-center mt-12 gap-10 flex-wrap"
-          data-aos="fade-right"
-        >
-          {organizing?.map((organizing, i) => (
-            <div
-              key={i}
-              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl"
-            >
-              <div className="flex items-center justify-center">
-                <div className="text-6xl group-hover:text-cyan-600">
-                  <img src={organizing.photo} className="rounded-full" />
-                </div>
-              </div>
-              <p className="text-lg mt-2 text-gray-600">{organizing.name}</p>
-              <p className="text-lg mt-3 text-gray-600">
-                {organizing.designation}
               </p>
             </div>
           ))}
