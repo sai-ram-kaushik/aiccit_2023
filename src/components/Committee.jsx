@@ -12,7 +12,7 @@ const Skills = () => {
       photo: "images/chief_patrons/prashant.webp", designation: 'President, MREI', name: 'Dr. Prashant Bhalla' 
     },
     {
-      photo: "images/chief_patrons/Amit.jpg", designation: 'Vice President, MREI', name: 'Dr. Prashant Bhalla' 
+      photo: "images/chief_patrons/Amit.jpg", designation: 'Vice President, MREI', name: 'Dr. Amit Bhalla' 
     },
   ]
 
@@ -33,7 +33,7 @@ const Skills = () => {
 
   const general_chair = [
     {
-      photo: "images/general_chair/Tapas.jpeg", designation: "Professor Head, CSE, FET, MRIIRS", name: "Dr. Tapas Kumar"
+      photo: "images/general_chair/Tapas.jpeg", designation: "Associate Dean, CSE, FET, MRIIRS", name: "Dr. Tapas Kumar"
     }
   ]
 
