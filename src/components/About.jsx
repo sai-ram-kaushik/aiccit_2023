@@ -1,5 +1,7 @@
 import React, {useEffect} from "react";
 import mr from "../assets/Images/mr.png";
+import department from '../assets/Images/department.png'
+import aiccit from "../assets/Images/aiccit.png"
 import Aos from "aos";
 import "aos/dist/aos.css"
 const About = () => {
@@ -73,7 +75,7 @@ const About = () => {
           </div>
           <div className="flex-1 flex justify-center items-center">
             <div className="lg:w-96 h-full relative sm:w-10/12 w-12/12 max-w-full mt-20">
-              <img src={mr} alt="about_image" className="w-full object-cover" />
+              <img src={department} alt="about_image" className="w-full object-cover" />
             </div>
           </div>
         </div>
@@ -104,7 +106,7 @@ const About = () => {
           </div>
           <div className="flex-1 flex justify-center items-center">
             <div className="lg:w-96 h-full relative sm:w-10/12 w-12/12 max-w-full mt-20">
-              <img src={mr} alt="about_image" className="w-full object-cover" />
+              <img src={aiccit} alt="about_image" className="w-full object-cover" />
             </div>
           </div>
         </div>
